@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, CardContent, Typography, Grid } from "@mui/material";
-import GridPage from "./GridPage";
+
 function CountryList({ countries }) {
   return (
     <div>

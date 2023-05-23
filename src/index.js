@@ -15,9 +15,9 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-      <typography>
+      <Typography>
         <App />
-      </typography>
+      </Typography>
     </ThemeProvider>
   </React.StrictMode>
 );
